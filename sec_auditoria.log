@@ -1,0 +1,124 @@
+[2026-11-03 11:22:49] [PAI-BINANCE] === SEC SMART TRADING (BINANCE TESTNET MODE) INICIADA ===
+[2026-11-03 11:22:50] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.30 | Workers: 0/10 | Op: $+1.96 | Saldo: $50.00 -> $51.94
+[2026-11-03 11:22:55] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.29 | Workers: 0/10 | Op: $+4.09 | Saldo: $51.94 -> $56.01
+[2026-11-03 11:23:01] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.29 | Workers: 0/10 | Op: $+0.11 | Saldo: $56.01 -> $56.10
+[2026-11-03 11:23:06] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.29 | Workers: 0/10 | Op: $+4.77 | Saldo: $56.10 -> $60.85
+[2026-11-03 11:23:11] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.27 | Workers: 0/10 | Op: $+2.97 | Saldo: $60.85 -> $63.80
+[2026-11-03 11:23:17] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.27 | Workers: 0/10 | Op: $+1.64 | Saldo: $63.80 -> $65.42
+[2026-11-03 11:23:22] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.27 | Workers: 0/10 | Op: $+3.18 | Saldo: $65.42 -> $68.58
+[2026-11-03 11:23:28] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.27 | Workers: 0/10 | Op: $-0.03 | Saldo: $68.58 -> $68.53
+[2026-11-03 11:23:33] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.27 | Workers: 0/10 | Op: $+3.14 | Saldo: $68.53 -> $71.65
+[2026-11-03 11:23:38] [PAI-BINANCE] [BPMN: SCALING] Meta atingida! Saldo: $71.65 | Workers: 0/10. Escalando...
+[2026-11-03 11:23:38] [PAI-BINANCE] [SUCESSO DE ESCALA] Sub-agente 'SEC_Binance_Worker_1793715818' alocado. Saldo do Pai: $56.65.
+[2026-11-03 11:23:44] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.27 | Workers: 1/10 | Op: $+3.96 | Saldo: $56.65 -> $60.59
+[2026-11-03 11:23:49] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.27 | Workers: 1/10 | Op: $+1.15 | Saldo: $60.59 -> $61.72
+[2026-11-03 11:23:55] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.31 | Workers: 1/10 | Op: $+1.29 | Saldo: $61.72 -> $62.99
+[2026-11-03 11:24:00] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.29 | Workers: 1/10 | Op: $+2.11 | Saldo: $62.99 -> $65.08
+[2026-11-03 11:24:06] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.29 | Workers: 1/10 | Op: $+4.18 | Saldo: $65.08 -> $69.24
+[2026-11-03 11:24:11] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.33 | Workers: 1/10 | Op: $+1.72 | Saldo: $69.24 -> $70.94
+[2026-11-03 11:24:16] [PAI-BINANCE] [BPMN: SCALING] Meta atingida! Saldo: $70.94 | Workers: 1/10. Escalando...
+[2026-11-03 11:24:16] [PAI-BINANCE] [SUCESSO DE ESCALA] Sub-agente 'SEC_Binance_Worker_1793715856' alocado. Saldo do Pai: $55.94.
+[2026-11-03 11:24:22] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.33 | Workers: 2/10 | Op: $+3.12 | Saldo: $55.94 -> $59.04
+[2026-11-03 11:24:27] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.45 | Workers: 2/10 | Op: $+1.88 | Saldo: $59.04 -> $60.90
+[2026-11-03 11:24:33] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.45 | Workers: 2/10 | Op: $+2.71 | Saldo: $60.90 -> $63.59
+[2026-11-03 11:24:38] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.45 | Workers: 2/10 | Op: $+4.64 | Saldo: $63.59 -> $68.21
+[2026-11-03 11:24:43] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.25 | Workers: 2/10 | Op: $+1.87 | Saldo: $68.21 -> $70.06
+[2026-11-03 11:24:48] [PAI-BINANCE] [BPMN: SCALING] Meta atingida! Saldo: $70.06 | Workers: 2/10. Escalando...
+[2026-11-03 11:24:48] [PAI-BINANCE] [SUCESSO DE ESCALA] Sub-agente 'SEC_Binance_Worker_1793715888' alocado. Saldo do Pai: $55.06.
+[2026-11-03 11:25:00] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.25 | Workers: 3/10 | Op: $+1.47 | Saldo: $55.06 -> $56.51
+[2026-11-03 11:25:45] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.27 | Workers: 3/10 | Op: $+0.73 | Saldo: $56.51 -> $57.23
+[2026-11-03 11:27:37] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.36 | Workers: 3/10 | Op: $+2.33 | Saldo: $57.23 -> $59.54
+[2026-11-03 11:28:56] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.21 | Workers: 3/10 | Op: $+2.25 | Saldo: $59.54 -> $61.76
+[2026-11-03 11:30:58] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.35 | Workers: 3/10 | Op: $-0.09 | Saldo: $61.76 -> $61.66
+[2026-11-03 11:33:34] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.34 | Workers: 3/10 | Op: $+4.64 | Saldo: $61.66 -> $66.27
+[2026-11-03 11:33:39] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.35 | Workers: 3/10 | Op: $+0.62 | Saldo: $66.27 -> $66.88
+[2026-11-03 11:33:45] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.35 | Workers: 3/10 | Op: $+3.89 | Saldo: $66.88 -> $70.74
+[2026-11-03 11:33:50] [PAI-BINANCE] [BPMN: SCALING] Meta atingida! Saldo: $70.74 | Workers: 3/10. Escalando...
+[2026-11-03 11:33:50] [PAI-BINANCE] [SUCESSO DE ESCALA] Sub-agente 'SEC_Binance_Worker_1793716430' alocado. Saldo do Pai: $55.74.
+[2026-11-03 11:33:55] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.40 | Workers: 4/10 | Op: $+1.54 | Saldo: $55.74 -> $57.27
+[2026-11-03 11:34:01] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.40 | Workers: 4/10 | Op: $+0.96 | Saldo: $57.27 -> $58.20
+[2026-11-03 11:34:49] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.39 | Workers: 4/10 | Op: $+2.81 | Saldo: $58.20 -> $60.99
+[2026-11-03 11:35:40] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.62 | Workers: 4/10 | Op: $+4.36 | Saldo: $60.99 -> $65.33
+[2026-11-03 11:36:08] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.54 | Workers: 4/10 | Op: $-0.10 | Saldo: $65.33 -> $65.22
+[2026-11-03 11:36:14] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.54 | Workers: 4/10 | Op: $+1.66 | Saldo: $65.22 -> $66.85
+[2026-11-03 11:36:19] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.54 | Workers: 4/10 | Op: $+2.82 | Saldo: $66.85 -> $69.65
+[2026-11-03 11:36:25] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.54 | Workers: 4/10 | Op: $+1.43 | Saldo: $69.65 -> $71.06
+[2026-11-03 11:36:30] [PAI-BINANCE] [BPMN: SCALING] Meta atingida! Saldo: $71.06 | Workers: 4/10. Escalando...
+[2026-11-03 11:36:30] [PAI-BINANCE] [SUCESSO DE ESCALA] Sub-agente 'SEC_Binance_Worker_1793716590' alocado. Saldo do Pai: $56.06.
+[2026-11-03 11:36:46] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.54 | Workers: 5/10 | Op: $+2.37 | Saldo: $56.06 -> $58.41
+[2026-11-03 11:47:41] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.58 | Workers: 5/10 | Op: $+0.69 | Saldo: $58.41 -> $59.08
+[2026-11-03 11:52:20] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.60 | Workers: 5/10 | Op: $+3.09 | Saldo: $59.08 -> $62.15
+[2026-11-03 11:52:34] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.59 | Workers: 5/10 | Op: $+3.34 | Saldo: $62.15 -> $65.47
+[2026-11-03 11:53:37] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.55 | Workers: 5/10 | Op: $+3.08 | Saldo: $65.47 -> $68.53
+[2026-11-03 11:53:43] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.55 | Workers: 5/10 | Op: $+3.75 | Saldo: $68.53 -> $72.25
+[2026-11-03 12:01:37] [PAI-BINANCE] [BPMN: SCALING] Meta atingida! Saldo: $72.25 | Workers: 5/10. Escalando...
+[2026-11-03 12:01:37] [PAI-BINANCE] [SUCESSO DE ESCALA] Sub-agente 'SEC_Binance_Worker_1793718097' alocado. Saldo do Pai: $57.25.
+[2026-11-03 12:03:56] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.45 | Workers: 6/10 | Op: $+0.91 | Saldo: $57.25 -> $58.14
+[2026-11-03 12:04:02] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.48 | Workers: 6/10 | Op: $+1.18 | Saldo: $58.14 -> $59.30
+[2026-11-03 12:04:07] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.47 | Workers: 6/10 | Op: $+2.78 | Saldo: $59.30 -> $62.06
+[2026-11-03 12:04:13] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.47 | Workers: 6/10 | Op: $+1.94 | Saldo: $62.06 -> $63.98
+[2026-11-03 12:04:18] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.47 | Workers: 6/10 | Op: $+3.51 | Saldo: $63.98 -> $67.47
+[2026-11-03 12:04:24] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.46 | Workers: 6/10 | Op: $+3.17 | Saldo: $67.47 -> $70.62
+[2026-11-03 12:05:08] [PAI-BINANCE] [BPMN: SCALING] Meta atingida! Saldo: $70.62 | Workers: 6/10. Escalando...
+[2026-11-03 12:05:08] [PAI-BINANCE] [SUCESSO DE ESCALA] Sub-agente 'SEC_Binance_Worker_1793718308' alocado. Saldo do Pai: $55.62.
+[2026-11-03 12:05:50] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.19 | Workers: 7/10 | Op: $+1.87 | Saldo: $55.62 -> $57.46
+[2026-11-03 12:06:01] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.18 | Workers: 7/10 | Op: $+1.48 | Saldo: $57.46 -> $58.92
+[2026-11-03 12:06:07] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.18 | Workers: 7/10 | Op: $+0.10 | Saldo: $58.92 -> $59.00
+[2026-11-03 12:06:25] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.19 | Workers: 7/10 | Op: $+1.78 | Saldo: $59.00 -> $60.75
+[2026-11-03 12:06:30] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.19 | Workers: 7/10 | Op: $+1.56 | Saldo: $60.75 -> $62.30
+[2026-11-03 12:06:36] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.19 | Workers: 7/10 | Op: $+0.14 | Saldo: $62.30 -> $62.41
+[2026-11-03 12:06:41] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.19 | Workers: 7/10 | Op: $+1.75 | Saldo: $62.41 -> $64.14
+[2026-11-03 12:06:47] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.19 | Workers: 7/10 | Op: $+4.85 | Saldo: $64.14 -> $68.96
+[2026-11-03 12:06:52] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.19 | Workers: 7/10 | Op: $+0.30 | Saldo: $68.96 -> $69.24
+[2026-11-03 12:08:31] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.28 | Workers: 7/10 | Op: $-0.01 | Saldo: $69.24 -> $69.21
+[2026-11-03 12:08:36] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.28 | Workers: 7/10 | Op: $+0.01 | Saldo: $69.21 -> $69.20
+[2026-11-03 12:08:42] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.28 | Workers: 7/10 | Op: $+0.00 | Saldo: $69.20 -> $69.18
+[2026-11-03 12:10:47] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.38 | Workers: 7/10 | Op: $+0.49 | Saldo: $69.18 -> $69.65
+[2026-11-03 12:11:32] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.35 | Workers: 7/10 | Op: $+0.88 | Saldo: $69.65 -> $70.51
+[2026-11-03 12:12:38] [PAI-BINANCE] [BPMN: SCALING] Meta atingida! Saldo: $70.51 | Workers: 7/10. Escalando...
+[2026-11-03 12:12:38] [PAI-BINANCE] [SUCESSO DE ESCALA] Sub-agente 'SEC_Binance_Worker_1793718758' alocado. Saldo do Pai: $55.51.
+[2026-11-03 12:19:18] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.09 | Workers: 8/10 | Op: $+0.04 | Saldo: $55.51 -> $55.53
+[2026-11-03 12:19:51] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.08 | Workers: 8/10 | Op: $+4.96 | Saldo: $55.53 -> $60.47
+[2026-11-03 12:22:23] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.20 | Workers: 8/10 | Op: $+2.92 | Saldo: $60.47 -> $63.36
+[2026-11-03 12:22:38] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.13 | Workers: 8/10 | Op: $+2.65 | Saldo: $63.36 -> $65.99
+[2026-11-03 12:23:41] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.14 | Workers: 8/10 | Op: $+2.98 | Saldo: $65.99 -> $68.95
+[2026-11-03 12:23:47] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.14 | Workers: 8/10 | Op: $+3.47 | Saldo: $68.95 -> $72.40
+[2026-11-03 12:23:52] [PAI-BINANCE] [BPMN: SCALING] Meta atingida! Saldo: $72.40 | Workers: 8/10. Escalando...
+[2026-11-03 12:23:52] [PAI-BINANCE] [SUCESSO DE ESCALA] Sub-agente 'SEC_Binance_Worker_1793719432' alocado. Saldo do Pai: $57.40.
+[2026-11-03 12:23:57] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.14 | Workers: 9/10 | Op: $+3.00 | Saldo: $57.40 -> $60.38
+[2026-11-03 12:24:03] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.09 | Workers: 9/10 | Op: $+3.74 | Saldo: $60.38 -> $64.10
+[2026-11-03 12:24:08] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.09 | Workers: 9/10 | Op: $+0.54 | Saldo: $64.10 -> $64.62
+[2026-11-03 12:24:14] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.09 | Workers: 9/10 | Op: $+2.30 | Saldo: $64.62 -> $66.90
+[2026-11-03 12:24:19] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.07 | Workers: 9/10 | Op: $+3.39 | Saldo: $66.90 -> $70.27
+[2026-11-03 12:24:24] [PAI-BINANCE] [BPMN: SCALING] Meta atingida! Saldo: $70.27 | Workers: 9/10. Escalando...
+[2026-11-03 12:24:24] [PAI-BINANCE] [SUCESSO DE ESCALA] Sub-agente 'SEC_Binance_Worker_1793719464' alocado. Saldo do Pai: $55.27.
+[2026-11-03 12:24:30] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.03 | Workers: 10/10 | Op: $+3.00 | Saldo: $55.27 -> $58.25
+[2026-11-03 12:24:35] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.03 | Workers: 10/10 | Op: $+3.66 | Saldo: $58.25 -> $61.89
+[2026-11-03 12:24:41] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.02 | Workers: 10/10 | Op: $+0.48 | Saldo: $61.89 -> $62.35
+[2026-11-03 12:24:46] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $92.99 | Workers: 10/10 | Op: $+4.63 | Saldo: $62.35 -> $66.96
+[2026-11-03 12:24:52] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.00 | Workers: 10/10 | Op: $+1.02 | Saldo: $66.96 -> $67.96
+[2026-11-03 12:24:57] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.00 | Workers: 10/10 | Op: $+4.20 | Saldo: $67.96 -> $72.14
+[2026-11-03 12:25:03] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.05 | Workers: 10/10 | Op: $+1.18 | Saldo: $72.14 -> $73.30
+[2026-11-03 12:25:08] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.05 | Workers: 10/10 | Op: $+4.37 | Saldo: $73.30 -> $77.65
+[2026-11-03 12:25:14] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.05 | Workers: 10/10 | Op: $+0.27 | Saldo: $77.65 -> $77.90
+[2026-11-03 12:25:19] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $92.99 | Workers: 10/10 | Op: $+4.91 | Saldo: $77.90 -> $82.79
+[2026-11-03 12:25:24] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $92.99 | Workers: 10/10 | Op: $+4.19 | Saldo: $82.79 -> $86.96
+[2026-11-03 12:25:30] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $92.99 | Workers: 10/10 | Op: $+0.03 | Saldo: $86.96 -> $86.97
+[2026-11-03 12:25:35] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $92.97 | Workers: 10/10 | Op: $+4.87 | Saldo: $86.97 -> $91.82
+[2026-11-03 12:25:41] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $92.98 | Workers: 10/10 | Op: $+4.79 | Saldo: $91.82 -> $96.59
+[2026-11-03 12:25:46] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $92.97 | Workers: 10/10 | Op: $+4.74 | Saldo: $96.59 -> $101.31
+[2026-11-03 12:25:52] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.00 | Workers: 10/10 | Op: $+3.95 | Saldo: $101.31 -> $105.24
+[2026-11-03 12:25:57] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.00 | Workers: 10/10 | Op: $+3.14 | Saldo: $105.24 -> $108.36
+[2026-11-03 12:26:03] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.00 | Workers: 10/10 | Op: $+4.68 | Saldo: $108.36 -> $113.02
+[2026-11-03 12:26:08] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.05 | Workers: 10/10 | Op: $+3.24 | Saldo: $113.02 -> $116.24
+[2026-11-03 12:26:14] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.05 | Workers: 10/10 | Op: $+3.59 | Saldo: $116.24 -> $119.81
+[2026-11-03 12:26:19] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.05 | Workers: 10/10 | Op: $+1.83 | Saldo: $119.81 -> $121.62
+[2026-11-03 12:26:24] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.05 | Workers: 10/10 | Op: $+2.38 | Saldo: $121.62 -> $123.97
+[2026-11-03 12:26:30] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.05 | Workers: 10/10 | Op: $+4.02 | Saldo: $123.97 -> $127.97
+[2026-11-03 12:26:35] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.05 | Workers: 10/10 | Op: $+4.14 | Saldo: $127.97 -> $132.09
+[2026-11-03 12:26:41] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.05 | Workers: 10/10 | Op: $+0.73 | Saldo: $132.09 -> $132.80
+[2026-11-03 12:26:46] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.05 | Workers: 10/10 | Op: $+1.04 | Saldo: $132.80 -> $133.82
+[2026-11-03 12:26:52] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $93.03 | Workers: 10/10 | Op: $+4.09 | Saldo: $133.82 -> $137.89
+[2026-11-03 12:26:57] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $92.96 | Workers: 10/10 | Op: $+3.29 | Saldo: $137.89 -> $141.16
+[2026-11-03 12:27:03] [PAI-BINANCE] [ATIVO] SOL/USDT Binance: $92.96 | Workers: 10/10 | Op: $+4.35 | Saldo: $141.16 -> $145.49
+[2026-11-03 12:27:07] [PAI-BINANCE] Sistema interrompido manualmente pelo usuário.
