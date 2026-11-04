@@ -2,23 +2,27 @@ import sqlite3
 import time
 import json
 import os
-import subprocess
 import urllib.request
 from datetime import datetime
+from sec_wallet import gerar_ou_carregar_carteira
+from sec_db import guardar_ordem_segura, listar_ordens_seguras
 
 DB_NAME = "sec_trading.db"
-CAPITAL_INICIAL = 50.0 
+CAPITAL_INICIAL = 50.0
 LIMITE_SEGURANCA = 10.0
 META_ESCALA = 70.0
 ORCAMENTO_SUB_AGENTE = 15.0
 LIMITE_MAX_WORKERS = 10
 
 def inicializar_banco():
+    # Inicializa também a carteira segura em AES-256-GCM
+    gerar_ou_carregar_carteira()
+    
     conn = sqlite3.connect(DB_NAME)
     cursor = conn.cursor()
     cursor.execute('''CREATE TABLE IF NOT EXISTS estado (
-                        id INTEGER PRIMARY KEY, 
-                        saldo REAL, 
+                        id INTEGER PRIMARY KEY,
+                        saldo REAL,
                         status TEXT,
                         atualizado_em TEXT)''')
     cursor.execute('''CREATE TABLE IF NOT EXISTS auditoria (
@@ -36,7 +40,7 @@ def inicializar_banco():
                         criado_em TEXT)''')
     cursor.execute("SELECT COUNT(*) FROM estado WHERE id = 1")
     if cursor.fetchone()[0] == 0:
-        cursor.execute("INSERT INTO estado (id, saldo, status, atualizado_em) VALUES (1, ?, 'ACTIVE', ?)", 
+        cursor.execute("INSERT INTO estado (id, saldo, status, atualizado_em) VALUES (1, ?, 'ACTIVE', ?)",
                        (CAPITAL_INICIAL, datetime.now().strftime("%Y-%m-%d %H:%M:%S")))
         conn.commit()
     conn.close()
@@ -58,7 +62,7 @@ def analisar_mercado_real() -> dict:
             preco_atual = precos_fecho[-1]
             preco_anterior = precos_fecho[0]
             variacao_pct = ((preco_atual - preco_anterior) / preco_anterior) * 100
-            
+
             if variacao_pct > 0.02:
                 lucro_calculado = abs(variacao_pct) * 0.5
                 sinal = "BULLISH (COMPRA)"
@@ -68,7 +72,7 @@ def analisar_mercado_real() -> dict:
             else:
                 lucro_calculado = 0.05
                 sinal = "NEUTRAL (LATERAL)"
-                
+
             return {
                 "preco": preco_atual,
                 "variacao": variacao_pct,
@@ -97,16 +101,20 @@ class ServidorMCPTools:
         novo_status = params.get("status")
         saldo_anterior = params.get("saldo_anterior")
         preco_mercado = params.get("preco_mercado", 0.0)
-        
+
         conn = sqlite3.connect(DB_NAME)
         cursor = conn.cursor()
-        cursor.execute("UPDATE estado SET saldo = ?, status = ?, atualizado_em = ? WHERE id = 1", 
+        cursor.execute("UPDATE estado SET saldo = ?, status = ?, atualizado_em = ? WHERE id = 1",
                        (novo_saldo, novo_status, datetime.now().strftime("%Y-%m-%d %H:%M:%S")))
-        cursor.execute('''INSERT INTO auditoria (ciclo_timestamp, saldo_anterior, saldo_atual, preco_mercado, status) 
+        cursor.execute('''INSERT INTO auditoria (ciclo_timestamp, saldo_anterior, saldo_atual, preco_mercado, status)
                           VALUES (?, ?, ?, ?, ?)''',
                        (datetime.now().strftime("%Y-%m-%d %H:%M:%S"), saldo_anterior, novo_saldo, preco_mercado, novo_status))
         conn.commit()
         conn.close()
+        
+        # Blinda o estado atualizado também no cofre encriptado AES-256-GCM
+        guardar_ordem_segura(tipo=novo_status, simbolo="SOLUSDT", preco=preco_mercado, quantidade=novo_saldo)
+        
         return {"sucesso": True, "saldo_atualizado": novo_saldo}
 
 def executar_ciclo_agente():
@@ -115,9 +123,6 @@ def executar_ciclo_agente():
     cursor.execute("SELECT saldo, status FROM estado WHERE id = 1")
     row = cursor.fetchone()
     saldo_atual, status_atual = row[0], row[1]
-    
-    cursor.execute("SELECT COUNT(*) FROM sub_agentes WHERE status = 'ACTIVE'")
-    total_workers = cursor.fetchone()[0]
     conn.close()
 
     if saldo_atual <= LIMITE_SEGURANCA:
@@ -127,18 +132,18 @@ def executar_ciclo_agente():
     analise = analisar_mercado_real()
     custo_api = 0.015
     novo_saldo = saldo_atual + analise["lucro"] - custo_api
-    
+
     registrar_log(f"SOL: ${analise['preco']:.2f} | Var: {analise['variacao']:.3f}% | Sinal: {analise['sinal']} | Op: ${analise['lucro']:+.2f} | Saldo: ${saldo_atual:.2f} -> ${novo_saldo:.2f}")
-    
+
     ServidorMCPTools.tool_atualizar_capital({
         "novo_saldo": novo_saldo,
-        "status": "ACTIVE",
+        "status": analise["sinal"],
         "saldo_anterior": saldo_atual,
         "preco_mercado": analise["preco"]
     })
 
 if __name__ == "__main__":
-    registrar_log("=== SEC SMART TRADING (ANÁLISE TÉCNICA REAL - BINANCE TESTNET) INICIADA ===")
+    registrar_log("=== SEC SMART TRADING (ANÁLISE TÉCNICA REAL + COFRE AES-256-GCM) INICIADA ===")
     inicializar_banco()
     try:
         while True:
